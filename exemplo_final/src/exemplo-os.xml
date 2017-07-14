@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<organisational-specification 
+    id="exemplo"
+    os-version="0.8"
+  
+    xmlns='http://moise.sourceforge.net/os'
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:schemaLocation='http://moise.sourceforge.net/os
+                        http://moise.sourceforge.net/xml/os.xsd' >
+    
+<structural-specification>
+
+<role-definitions>
+ <role id="papel_A" />
+ <role id="papel_B"/>
+ <role id="papel_C"/>
+</role-definitions>
+
+<group-specification id="grupo_exemplo">
+ <roles>
+  <role id="papel_A"          min="1" max="10"/>
+  <role id="papel_B"          min="1" max="2"/>
+  <role id="papel_C"          min="1" max="1"/>
+ </roles>
+ 
+</group-specification>
+</structural-specification>
+
+</organisational-specification>
+
